@@ -1,0 +1,5 @@
+Unit will power up with 12VDC applied to +BATT.
+
+All scope screen captures with 10mVDC applied to SHUNT+ and SHUNT-.
+
+
