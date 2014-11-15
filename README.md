@@ -1,0 +1,1 @@
+Generate a schematic for the Brusa BC29 Ampere hour meter in CADSOFT Eagle format.
