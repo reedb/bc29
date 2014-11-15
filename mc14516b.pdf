@@ -1,0 +1,11 @@
+<h2>Whitelist your IP</h2><p>Unfortunately, we have had to introduce this captcha system recently to prevent mass downloading of our data book scanning project.</p><p>Please enter the captcha below to download this datasheet. This will also whitelist your IP address for further downloads today. Shared IP addresses may be prompted for a captcha multiple times each day.</p>
+<!-- ALL DOWNLOADS ARE MANUALLY MONITORED. WE ALSO DEPLOY OUR OWN CODES WITHIN OUR PDF CONTENT AND DATABASE TO TRACK SITES THAT SYSTEMATICALLY STRIP OUR HARD WORK -->
+<form method="post" action="">
+<script type="text/javascript" src="http://www.google.com/recaptcha/api/challenge?k=6LdTa-MSAAAAANZE9CdlRXcV-BrfNQJ5cbRdS_Gt"></script>
+
+	<noscript>
+  		<iframe src="http://www.google.com/recaptcha/api/noscript?k=6LdTa-MSAAAAANZE9CdlRXcV-BrfNQJ5cbRdS_Gt" height="300" width="500" frameborder="0"></iframe><br/>
+  		<textarea name="recaptcha_challenge_field" rows="3" cols="40"></textarea>
+  		<input type="hidden" name="recaptcha_response_field" value="manual_challenge"/>
+	</noscript>&nbsp;<input type="image" src="http://pdf.datasheetarchive.com/img/download.gif" border="0" alt="Download Datasheet">
+</form>
