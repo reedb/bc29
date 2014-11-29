@@ -1,5 +1,18 @@
-Unit will power up with 12VDC applied to +BATT.
-
 All scope screen captures with 10mVDC applied to SHUNT+ and SHUNT-.
 
+The amp hour meter has five major components to it:
 
+1. High accuracy V/F circuit (~25000:1 accuracy, 250A to 0.01A). It uses a very low input leakage, chopper stabilized op amp and a trimmed RC. This requires a highly stable capacitor and 0.1% resistors. Delta-Sigma charge balancing voltage to frequency converter.
+2. AH Counter
+3. LCD driver
+4. Battery voltage to 5VDC regulator
+5. A 32 KHz clock/counter (IC: 4060) that is used to create the -4VDC used by the operational amplifiers.
+
+In the 5VDC regulator portion of the circuit, a IRF720 is the pass device in a very sophisticated multi-stage regulator and filter for the transient sensitive CMOS IC's used in the circuit. The meter circuitry only draws about 1 ma of current at very well regulated 5 volts. It is derived, not from the 12 DC to DC convertor buss, which might have been better, but is regulated down from the full, raw, battery voltage with all of the high voltage noise and regen voltage variations, etc. The unit will power up with as little as 12VDC applied to +BATT.
+
+In the area of the IRF720 is also a very low (idle) current regulator (IC: LP2951D) for the final 5 volts regulation, which follows a pre-regulator stage with a simple series pass type of regulator (IRF 720 ). A simple zener diode controls the IRF720 output voltage to the final regulator (double stage regulator with filtering). 
+
+Shunt: 0.0006 Ohms = 0.6 mOhms => 10mA:6uV, 100A:60mV, 250A:150mV
+
+Teledyne TSC900BIJA - Single Chopper-Stabilized Op Amp - Slew Rate: 200mV/uS 
+Possible replacement: TI TLC2652A, Slew Rate: 2V/uS 
