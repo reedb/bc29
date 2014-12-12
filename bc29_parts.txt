@@ -1,117 +1,117 @@
 Partlist
 
-Exported from bc29.brd at 2014-12-08 7:56 AM
+Exported from bc29.sch at 2014-12-11 8:26 AM
 
 EAGLE Version 7.1.0 Copyright (c) 1988-2014 CadSoft
 
 Assembly variant: 
 
-Part     Value          Package            Library          Position (inch)       Orientation
+Part     Value          Device            Package            Library          Sheet
 
-C1       100nF          C1206              rcl              (1.6 0.9)             R0
-C2       100nF          C1206              rcl              (1.6 1)               R0
-C3       1uF            C050-045X075       rcl              (0.9 0.3)             R90
-C4       1uF            C050-045X075       rcl              (0.6 1)               R90
-C5       100nF          C1206              rcl              (1.75 0.2)            R90
-C6       100nF          C1206              rcl              (1.9 0.2)             R90
-C7       10nF           C0805              rcl              (1.7 2.4)             R0
-C8       10nF           C0805              rcl              (1.5 2.4)             R0
-C9       10nF           C0805              rcl              (1.3 2.4)             R0
-C10      100nF          C1206              rcl              (2.05 0.2)            R90
-C11      220pF          C0805              rcl              (2.7 1.45)            R0
-C12      100nF          C1206              rcl              (2.8 3.2)             R0
-C13      100nF          C1206              rcl              (2.2 0.2)             R90
-C14      100nF          C1206              rcl              (1.6 0.2)             R90
-C15      10nF           C0805              rcl              (1 2.8)               R0
-C16      100nF          C1206              rcl              (2.35 2.15)           R0
-C17      10pF           C0805              rcl              (2.25 0.8)            R90
-C18      39pF           C0805              rcl              (2.7 0.8)             R90
-C19      10nF           C0805              rcl              (2.45 3.2)            R0
-C20                     C050-024X044       rcl              (4 2)                 R270
-C21                     C0805              rcl              (2.1 2.9)             R0
-D1       1N4448         MINIMELF           diode            (1.4 0.3)             R90
-D2       1N4448         MINIMELF           diode            (1.25 0.3)            R270
-D3       1N4448         MINIMELF           diode            (1.4 0.55)            R90
-D4       1N4448         MINIMELF           diode            (1.25 0.55)           R270
-D5       1N4448         MINIMELF           diode            (2.05 0.8)            R180
-D6       1N4448         MINIMELF           diode            (2.05 0.7)            R180
-D7       1N4448         MINIMELF           diode            (3.8 2.1)             R270
-D8       1N4448         MINIMELF           diode            (2.1 3.05)            R180
-D9       1N4004         SOD80C             diode            (1.75 3.1)            R270
-E1       10uF 63V       E2,5-5             rcl              (3.55 2.1)            R270
-E2       10uF 63V       E2,5-5             rcl              (2.7 3)               R270
-E3       47uf 25V       E2,5-5             rcl              (2.9 3)               R270
-E4       47uf 25V       E2,5-5             rcl              (2.4 0.2)             R270
-E5       47uf 25V       E2,5-5             rcl              (2.6 0.2)             R270
-E6       10uF 63V       E2,5-5             rcl              (2.35 2.1)            R0
-F1       32mA           FUSE_HOLDER_5X20MM fuse             (0.95 3.15)           R0
-IC1      TSC900BIJA     DIL08              linear           (1.7 0.6)             R270
-IC2      TLC27L41       SO14               linear           (1.4 2.1)             R0
-IC3      CD4053B        SO16               40xx             (1.4 1.6)             R0
-IC4      CD4013B        SO14               40xx             (2.15 1.8)            R0
-IC5      CD4001B        SO14               40xx             (3.05 1.8)            R0
-IC6      CD4060B        SO16               40xx             (2.45 0.5)            R0
-IC7      HCF4520        SO16               45xx             (2.15 1.3)            R0
-IC8      CD4093B        SO14               40xx             (2.15 2.4)            R0
-IC9      CD4001B        SO14               40xx             (3.25 0.3)            R0
-IC10     MC14516B       SO16               45xx             (3.25 2.5)            R0
-IC11     CD4070B        SO14               40xx             (3.85 0.8)            R0
-IC12     MC14516B       SO16               45xx             (3.65 1.8)            R0
-IC13     CD4013         SO14               40xx             (3.85 2.5)            R0
-IC14     CD4023         SO14               40xx             (3.85 3)              R0
-IC15     CD4013B        SO14               40xx             (3.05 1.3)            R0
-IC16     MC14073B       SO14               40xx             (3.25 0.8)            R0
-IC17     CD4070B        SO14               40xx             (3.65 1.3)            R0
-IC18     LP2951         SO08               linear           (2.45 3.05)           R270
-IC19     CD4081         SO14               40xx             (3.25 3)              R0
-J1       2520-5         PAK100/2500-5-20   con-3m           (4.2 1.75)            R270
-JP1                     1X01               pinhead          (0.25 2.8)            R0
-JP2                     1X01               pinhead          (0.25 2.6)            R0
-JP3                     1X01               pinhead          (0.25 2.4)            R0
-JP4                     1X01               pinhead          (0.25 2.2)            R0
-JP5                     1X01               pinhead          (0.25 2)              R0
-JP6                     1X01               pinhead          (0.25 1.8)            R0
-JP7                     1X01               pinhead          (0.25 1.6)            R0
-JP8                     1X01               pinhead          (0.25 1.4)            R0
-JP9                     1X01               pinhead          (0.25 1.2)            R0
-JP10                    1X01               pinhead          (0.25 1)              R0
-JP11                    1X01               pinhead          (0.25 0.8)            R0
-JP12                    1X01               pinhead          (0.25 0.6)            R0
-JP13                    1X12               pinhead          (0.5 2.1)             R270
-M1       IRF740         TO220BV            transistor-power (2 3.3)               R0
-Q1       32.768KHz      TC26H              crystal          (2.85 0.75)           R180
-R1       620            M0805              rcl              (1.1 0.3)             R90
-R2       300            M0805              rcl              (0.55 1.25)           R0
-R3       300            M0805              rcl              (0.6 0.6)             R90
-R4       10K            M0805              rcl              (1.075 0.6)           R90
-R5       130K           0207/10            rcl              (1.25 1.15)           R0
-R6       130K           0207/10            rcl              (1.25 1.05)           R0
-R7       2K             M0805              rcl              (0.85 0.6)            R90
-R8       4.70K          0207/10            rcl              (1.25 0.85)           R0
-R9       8.20K          0207/10            rcl              (1.25 0.95)           R0
-R10      3K             M0805              rcl              (1.5 1.85)            R0
-R11      1M             M0805              rcl              (1.3 1.85)            R0
-R12      330K           M0805              rcl              (1.7 2.55)            R0
-R13      330K           M0805              rcl              (1.5 2.55)            R0
-R14      330K           M0805              rcl              (1.3 2.55)            R0
-R15      1M             M0805              rcl              (1.7 2.05)            R0
-R16      1M             M0805              rcl              (1.7 2.2)             R0
-R17      100K           M0805              rcl              (2.7 1.3)             R0
-R18      47             M0805              rcl              (2.05 0.4)            R0
-R19      47             M0805              rcl              (2.05 0.55)           R0
-R20      1K             M0805              rcl              (3.7 2.15)            R90
-R21      10M            M0805              rcl              (2.4 0.8)             R270
-R22      20K            M0805              rcl              (0.75 2.65)           R0
-R23      100K           M0805              rcl              (1 2.65)              R0
-R24      20K            M0805              rcl              (0.75 2.35)           R0
-R25      100K           M0805              rcl              (2.1 2.1)             R0
-R26      330K           M0805              rcl              (2.55 0.8)            R90
-R27      2K             M0805              rcl              (0.75 1.75)           R0
-R28      2K             M0805              rcl              (0.75 1.95)           R0
-R29      1M             M0805              rcl              (1.85 2.9)            R0
-R30      1M             M0805              rcl              (1.6 2.9)             R180
-R31      OPEN           0207/10            rcl              (1.25 1.25)           R0
-R51      2K             M0805              rcl              (0.75 2.15)           R0
-R52      1K             M0805              rcl              (0.75 2.5)            R0
-Z1       12V            SOD80C             diode            (2.3 2.85)            R0
-Z2       6.2V           SOD80C             diode            (2.55 2.85)           R0
+C1       100nF          C-EUC1206         C1206              rcl              1
+C2       100nF          C-EUC1206         C1206              rcl              1
+C3       1uF            C-EU050-045X075   C050-045X075       rcl              1
+C4       1uF            C-EU050-045X075   C050-045X075       rcl              1
+C5       100nF          C-EUC1206         C1206              rcl              1
+C6       100nF          C-EUC1206         C1206              rcl              1
+C7       10nF           C-EUC0805         C0805              rcl              1
+C8       10nF           C-EUC0805         C0805              rcl              1
+C9       10nF           C-EUC0805         C0805              rcl              1
+C10      100nF          C-EUC1206         C1206              rcl              1
+C11      220pF          C-EUC0805         C0805              rcl              1
+C12      100nF          C-EUC1206         C1206              rcl              1
+C13      100nF          C-EUC1206         C1206              rcl              1
+C14      100nF          C-EUC1206         C1206              rcl              1
+C15      10nF           C-EUC0805         C0805              rcl              1
+C16      100nF          C-EUC1206         C1206              rcl              1
+C17      10pF           C-EUC0805         C0805              rcl              1
+C18      39pF           C-EUC0805         C0805              rcl              1
+C19      10nF           C-EUC0805         C0805              rcl              1
+C20      10nF           C-EU050-024X044   C050-024X044       rcl              1
+C21      10nF           C-EUC0805         C0805              rcl              1
+D1       1N4448         DIODE-MINIMELF    MINIMELF           diode            1
+D2       1N4448         DIODE-MINIMELF    MINIMELF           diode            1
+D3       1N4448         DIODE-MINIMELF    MINIMELF           diode            1
+D4       1N4448         DIODE-MINIMELF    MINIMELF           diode            1
+D5       1N4448         DIODE-MINIMELF    MINIMELF           diode            1
+D6       1N4448         DIODE-MINIMELF    MINIMELF           diode            1
+D7       1N4448         DIODE-MINIMELF    MINIMELF           diode            1
+D8       1N4448         DIODE-MINIMELF    MINIMELF           diode            1
+D9       1N4004         DIODE-SOD80C      SOD80C             diode            1
+E1       10uF 63V       CPOL-EUE2.5-5     E2,5-5             rcl              1
+E2       10uF 63V       CPOL-EUE2.5-5     E2,5-5             rcl              1
+E3       47uf 25V       CPOL-EUE2.5-5     E2,5-5             rcl              1
+E4       47uf 25V       CPOL-EUE2.5-5     E2,5-5             rcl              1
+E5       47uf 25V       CPOL-EUE2.5-5     E2,5-5             rcl              1
+E6       10uF 63V       CPOL-EUE2.5-5     E2,5-5             rcl              1
+F1       32mA           FUSEBLANK_5X20MM  FUSE_HOLDER_5X20MM fuse             1
+IC1      TSC900BIJA     2CMPN             DIL08              linear           1
+IC2      TLC27L41       TLC274D           SO14               linear           1
+IC3      CD4053B        4053D             SO16               40xx             1
+IC4      CD4013B        4013D             SO14               40xx             1
+IC5      CD4001B        4001D             SO14               40xx             1
+IC6      CD4060B        4060D             SO16               40xx             1
+IC7      HCF4520        4520D             SO16               45xx             1
+IC8      CD4093B        4093D             SO14               40xx             1
+IC9      CD4001B        4001D             SO14               40xx             1
+IC10     MC14516B       4516D             SO16               45xx             1
+IC11     CD4070B        4070D             SO14               40xx             1
+IC12     MC14516B       4516D             SO16               45xx             1
+IC13     CD4013         4013D             SO14               40xx             1
+IC14     CD4023         4023D             SO14               40xx             1
+IC15     CD4013B        4013D             SO14               40xx             1
+IC16     MC14073B       4073D             SO14               40xx             1
+IC17     CD4070B        4070D             SO14               40xx             1
+IC18     LP2951         LP2951D           SO08               linear           1
+IC19     CD4081         4081D             SO14               40xx             1
+J1       2520-5         2520-5            PAK100/2500-5-20   con-3m           1
+JP1                     PINHD-1X1         1X01               pinhead          1
+JP2                     PINHD-1X1         1X01               pinhead          1
+JP3                     PINHD-1X1         1X01               pinhead          1
+JP4                     PINHD-1X1         1X01               pinhead          1
+JP5                     PINHD-1X1         1X01               pinhead          1
+JP6                     PINHD-1X1         1X01               pinhead          1
+JP7                     PINHD-1X1         1X01               pinhead          1
+JP8                     PINHD-1X1         1X01               pinhead          1
+JP9                     PINHD-1X1         1X01               pinhead          1
+JP10                    PINHD-1X1         1X01               pinhead          1
+JP11                    PINHD-1X1         1X01               pinhead          1
+JP12                    PINHD-1X1         1X01               pinhead          1
+JP13                    PINHD-1X12        1X12               pinhead          1
+M1       IRF740         IRF740            TO220BV            transistor-power 1
+Q1       32.768KHz      CRYSTALTC26H      TC26H              crystal          1
+R1       620            R-EU_M0805        M0805              rcl              1
+R2       300            R-EU_M0805        M0805              rcl              1
+R3       300            R-EU_M0805        M0805              rcl              1
+R4       10K            R-EU_M0805        M0805              rcl              1
+R5       130K           R-EU_0207/10      0207/10            rcl              1
+R6       130K           R-EU_0207/10      0207/10            rcl              1
+R7       2K             R-EU_M0805        M0805              rcl              1
+R8       4.70K          R-EU_0207/10      0207/10            rcl              1
+R9       8.20K          R-EU_0207/10      0207/10            rcl              1
+R10      3K             R-EU_M0805        M0805              rcl              1
+R11      1M             R-EU_M0805        M0805              rcl              1
+R12      330K           R-EU_M0805        M0805              rcl              1
+R13      330K           R-EU_M0805        M0805              rcl              1
+R14      330K           R-EU_M0805        M0805              rcl              1
+R15      1M             R-EU_M0805        M0805              rcl              1
+R16      1M             R-EU_M0805        M0805              rcl              1
+R17      100K           R-EU_M0805        M0805              rcl              1
+R18      47             R-EU_M0805        M0805              rcl              1
+R19      47             R-EU_M0805        M0805              rcl              1
+R20      1K             R-EU_M0805        M0805              rcl              1
+R21      10M            R-EU_M0805        M0805              rcl              1
+R22      20K            R-EU_M0805        M0805              rcl              1
+R23      100K           R-EU_M0805        M0805              rcl              1
+R24      20K            R-EU_M0805        M0805              rcl              1
+R25      100K           R-EU_M0805        M0805              rcl              1
+R26      330K           R-EU_M0805        M0805              rcl              1
+R27      2K             R-EU_M0805        M0805              rcl              1
+R28      2K             R-EU_M0805        M0805              rcl              1
+R29      1M             R-EU_M0805        M0805              rcl              1
+R30      1M             R-EU_M0805        M0805              rcl              1
+R31      OPEN           R-EU_0207/10      0207/10            rcl              1
+R51      2K             R-EU_M0805        M0805              rcl              1
+R52      1K             R-EU_M0805        M0805              rcl              1
+Z1       12V            ZENER-DIODESOD80C SOD80C             diode            1
+Z2       6.2V           ZENER-DIODESOD80C SOD80C             diode            1
