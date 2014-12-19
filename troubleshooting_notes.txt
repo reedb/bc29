@@ -22,3 +22,7 @@ Shunt: 0.0006 Ohms = 0.6 mOhms => 10mA:6uV, 100A:60mV, 250A:150mV
 
 Teledyne TSC900BIJA - Single Chopper-Stabilized Op Amp - Slew Rate: 200mV/uS 
 Possible replacement: TI TLC2652A, Slew Rate: 2V/uS 
+
+Early model display board: BC-29  ANZ-A
+LCD Dispaly: http://www.lxdinc.com/displays/H0045A or http://www.lxdinc.com/displays/H0049B
+LCD Dispaly Driver: National/Maxim mm74c945n
