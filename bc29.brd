@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3231,11 +3231,6 @@ design rules under a new name.</description>
 <wire x1="54.61" y1="48.7934" x2="54.61" y2="64.0334" width="0" layer="19" extent="1-1"/>
 <wire x1="53.34" y1="42.6466" x2="54.61" y2="48.7934" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="IC17-1">
-<contactref element="IC9" pad="9"/>
-<contactref element="IC9" pad="4"/>
-<wire x1="82.55" y1="4.5466" x2="85.09" y2="10.6934" width="0" layer="19" extent="1-1"/>
-</signal>
 <signal name="N$25">
 <contactref element="IC9" pad="10"/>
 <contactref element="IC9" pad="5"/>
@@ -3309,6 +3304,10 @@ design rules under a new name.</description>
 </signal>
 <signal name="COLON_ON">
 <contactref element="IC17" pad="1"/>
+<contactref element="IC9" pad="9"/>
+<contactref element="IC9" pad="4"/>
+<wire x1="85.09" y1="10.6934" x2="88.9" y2="29.9466" width="0" layer="19" extent="1-1"/>
+<wire x1="82.55" y1="4.5466" x2="85.09" y2="10.6934" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="!LCD_COUNTER_CARRY">
 <contactref element="J2" pad="3"/>
@@ -3329,7 +3328,7 @@ design rules under a new name.</description>
 <contactref element="IC3" pad="4"/>
 <wire x1="26.035" y1="-17.78" x2="34.925" y2="37.5666" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="!LCD_COUNTER_BACKPLANE">
+<signal name="LCD_COUNTER_BACKPLANE">
 <contactref element="J2" pad="19"/>
 <contactref element="IC17" pad="2"/>
 <contactref element="IC17" pad="9"/>
@@ -3389,7 +3388,7 @@ design rules under a new name.</description>
 <wire x1="90.17" y1="52.07" x2="96.52" y2="55.04" width="0" layer="19" extent="1-1"/>
 <wire x1="28.575" y1="-15.24" x2="90.17" y2="52.07" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="!LCD_COUNTER_CLK">
+<signal name="LCD_COUNTER_CLK">
 <contactref element="J2" pad="15"/>
 <contactref element="IC11" pad="3"/>
 <contactref element="IC14" pad="11"/>

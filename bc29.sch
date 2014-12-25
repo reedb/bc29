@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -21673,19 +21673,6 @@ Source: 008-0260-0_E.pdf</description>
 <junction x="48.26" y="-71.12"/>
 </segment>
 </net>
-<net name="IC17-1" class="0">
-<segment>
-<pinref part="IC9" gate="C" pin="I1"/>
-<wire x1="38.1" y1="35.56" x2="38.1" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="35.56" x2="86.36" y2="35.56" width="0.1524" layer="91"/>
-<label x="86.36" y="35.56" size="1.27" layer="95" xref="yes"/>
-<wire x1="38.1" y1="22.86" x2="83.82" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="22.86" x2="83.82" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="IC9" gate="B" pin="O"/>
-<wire x1="83.82" y1="35.56" x2="76.2" y2="35.56" width="0.1524" layer="91"/>
-<junction x="83.82" y="35.56"/>
-</segment>
-</net>
 <net name="N$25" class="0">
 <segment>
 <pinref part="IC9" gate="C" pin="O"/>
@@ -21842,6 +21829,17 @@ Source: 008-0260-0_E.pdf</description>
 <wire x1="439.42" y1="-66.04" x2="439.42" y2="-68.58" width="0.1524" layer="91"/>
 <label x="439.42" y="-68.58" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
+<segment>
+<pinref part="IC9" gate="C" pin="I1"/>
+<wire x1="38.1" y1="35.56" x2="38.1" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="35.56" x2="86.36" y2="35.56" width="0.1524" layer="91"/>
+<label x="86.36" y="35.56" size="1.27" layer="95" xref="yes"/>
+<wire x1="38.1" y1="22.86" x2="83.82" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="22.86" x2="83.82" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="IC9" gate="B" pin="O"/>
+<wire x1="83.82" y1="35.56" x2="76.2" y2="35.56" width="0.1524" layer="91"/>
+<junction x="83.82" y="35.56"/>
+</segment>
 </net>
 <net name="!LCD_COUNTER_CARRY" class="0">
 <segment>
@@ -21888,7 +21886,7 @@ Source: 008-0260-0_E.pdf</description>
 <label x="38.1" y="-142.24" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="!LCD_COUNTER_BACKPLANE" class="0">
+<net name="LCD_COUNTER_BACKPLANE" class="0">
 <segment>
 <pinref part="J2" gate="-19" pin="KL"/>
 <wire x1="441.96" y1="-15.24" x2="454.66" y2="-15.24" width="0.1524" layer="91"/>
@@ -22038,7 +22036,7 @@ Source: 008-0260-0_E.pdf</description>
 <pinref part="J2" gate="-20" pin="KL"/>
 </segment>
 </net>
-<net name="!LCD_COUNTER_CLK" class="0">
+<net name="LCD_COUNTER_CLK" class="0">
 <segment>
 <pinref part="J2" gate="-15" pin="KL"/>
 <wire x1="454.66" y1="-5.08" x2="441.96" y2="-5.08" width="0.1524" layer="91"/>
