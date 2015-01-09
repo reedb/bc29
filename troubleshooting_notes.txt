@@ -1,3 +1,15 @@
+Most BC29 problems occur because the conformal coating fails and the
+board is in an unsealed box, so water condenses on it, causes a
+short circuit, and burns out either some trace on the board or the
+resistor in the input power cable.  So you replace the resistor or
+bypass the burnt trace, and often the problem is fixed.  If so, you
+reapply the coating to prevent repetitions.  If not, then it's time for
+more technical debugging. -Ken Olum
+
+From the Yahoo solectria_ev site (files section) The following should be reviewed:
+"AH Control Board Removal.pdf" (covers late model with separate remote display)
+"Amp-Hour Repair.pdf"
+
 All scope screen captures with 10mVDC applied to SHUNT+ and SHUNT-.
 
 The amp hour meter has five major components to it:
@@ -26,3 +38,4 @@ Possible replacement: TI TLC2652A, Slew Rate: 2V/uS
 Early model display board: BC-29  ANZ-A
 LCD Dispaly: http://www.lxdinc.com/displays/H0045A or http://www.lxdinc.com/displays/H0049B
 LCD Dispaly Driver: National/Maxim mm74c945n
+
